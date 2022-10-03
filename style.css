@@ -12,12 +12,18 @@ body marquee {
     color: brown;
 }
 
+#Container {
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+
 .Container1 {
     border: 2px black;
     border-style: solid;
     border-radius: 500px;
-    height: 500px;
-    width: 500px;
+    height: 200px;
+    width: 200px;
     margin: auto;
     margin-top: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -25,9 +31,9 @@ body marquee {
 }
 
 .Container1 img {
-    height: 500px;
-    width: 500px;
-    border-radius: 500px;
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
 
 }
 
@@ -77,6 +83,7 @@ button:hover {
 /* box decoration */
 #box {
     margin-left: 10%;
+    margin-top: 10%;
 }
 
 #box table,
