@@ -12,6 +12,10 @@ body marquee {
     color: brown;
 }
 
+#EntirePage {
+    display: flex;
+}
+
 #Container {
     display: flex;
     flex-direction: column;
@@ -100,3 +104,17 @@ td {
 }
 
 /* box decoration ended */
+
+.Schedule button {
+    height: 50px;
+    width: 150px;
+    margin-left: 500px;
+    margin-top: 330px;
+}
+
+.Home {
+    height: 200px;
+    width: 300px;
+    margin-left: 670px;
+    margin-top: 30px;
+}
