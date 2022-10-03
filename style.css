@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+body marquee {
+    margin-top: 10px;
+    color: brown;
+}
+
+.Container1 {
+    border: 2px black;
+    border-style: solid;
+    border-radius: 500px;
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.Container1 img {
+    height: 500px;
+    width: 500px;
+    border-radius: 500px;
+
+}
+
+.Container2 {
+    border: 5px red;
+    height: 300px;
+    width: 500px;
+    margin: auto;
+    margin-top: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    background-color: aliceblue;
+
+}
+
+.Container2 p {
+    color: gray;
+    font-size: 20px;
+}
+
+.Container2 button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: black;
+    background-color: antiquewhite;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+
+}
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+button:hover {
+    opacity: 0.7;
+    cursor: pointer;
+    text-align: center;
+}
+
+/* box decoration */
+#box {
+    margin-left: 10%;
+}
+
+#box table,
+th,
+td {
+    border: 1px solid black;
+    background-color: aqua;
+    color: blue;
+}
+
+#box h1 {
+    margin-left: 40%;
+    color: blue;
+}
+
+/* box decoration ended */
